@@ -1,0 +1,4 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "eskimo-nation.co.uk"
+theme = "anybodyhome"
