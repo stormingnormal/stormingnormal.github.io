@@ -13,3 +13,5 @@ fields:
   config:
     required: false
   label: Content
+pages:
+- content/this-is-a-second-test.md
