@@ -2,13 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>eskimo-nation.co.uk</title>
-    <link>http://example.org/</link>
+    <link>http://www.eskimo-nation.co.uk/</link>
     <description>Recent content on eskimo-nation.co.uk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.eskimo-nation.co.uk/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title></title>
+      <link>http://www.eskimo-nation.co.uk/first/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.eskimo-nation.co.uk/first/</guid>
+      <description> *Hello Hugonew first.md </description>
+    </item>
     
   </channel>
 </rss>

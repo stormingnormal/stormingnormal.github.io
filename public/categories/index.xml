@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on eskimo-nation.co.uk</title>
-    <link>http://example.org/categories/</link>
+    <link>http://www.eskimo-nation.co.uk/categories/</link>
     <description>Recent content in Categories on eskimo-nation.co.uk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.eskimo-nation.co.uk/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
