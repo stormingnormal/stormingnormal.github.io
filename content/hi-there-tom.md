@@ -1,6 +1,6 @@
 +++
 author = "David Nash"
-date = "2019-06-29T07:10:00+01:00"
+date = ""
 title = "Hi There tommo"
 
 +++
