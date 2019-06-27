@@ -22,4 +22,5 @@ fields:
       path: 
   label: Author
 pages:
+- content/hi-there-tom.md
 - content/this-is-a-second-test.md
