@@ -50,7 +50,7 @@ function favicon(){
                 developerName: 'David Nash',
                 developerURL: 'https://www.eskimo-nation.co.uk/',
                 background: '#020307',
-                path: 'static/',
+                path: '/',
                 lang: "en-GB",
                 url: 'https://www.eskimo-nation.co.uk/',
                 display: 'standalone',
