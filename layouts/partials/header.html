@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ .Title }}</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="{{ .Description }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Oxygen|Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/{{ index .Site.Data.css.hash "styles.css" }}" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+</head>
+<body>
+    {{ partial "menu.html" . }}
+    <div class="callout large primary">
+        <div class="row column text-center">
+        <h1>{{ .Title }}</h1>
+        <h2 class="subheader"></h2>
+        </div>
+    </div>

@@ -1,4 +1,22 @@
 baseURL = "https://www.eskimo-nation.co.uk"
 languageCode = "en-us"
-theme = "anybodyhome"
 title = "eskimo-nation.co.uk"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    identifier = "home"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Articles"
+    identifier = "articles"
+    url = "/articles/"
+    weight = 20
+
+  [[menu.main]]
+    name = "Contact"
+    identifier = "contact-us"
+    url = "/contact-us/"
+    weight = 30

@@ -1,0 +1,23 @@
+{{ partial "header.html" . }}
+    <div class="row small-12 medium-6">
+        {{ range first 10 .Data.Pages }}
+        {{ if eq .Type "articles" }}
+            <div class="small-12 medium-12 columns card">
+                <div class="card-divider">
+                <h4>
+                    <a href="{{ .Permalink }}">
+                        {{ .Title }}
+                    </a>
+                </h4>
+                </div>
+                <div class="card-section">
+                    {{ .Summary }}
+                    <a href="{{ .Permalink }}">
+                        Read the full article
+                    </a>
+                </div>
+            </div>
+        {{ end }}
+        {{ end }}
+        </div>
+{{ partial "footer.html" . }}
