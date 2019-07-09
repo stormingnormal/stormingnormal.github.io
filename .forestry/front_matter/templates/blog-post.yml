@@ -21,3 +21,5 @@ fields:
       file: 
       path: 
   label: Author
+pages:
+- content/articles/check-1-2.md
