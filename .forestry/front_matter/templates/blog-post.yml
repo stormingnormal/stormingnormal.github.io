@@ -22,4 +22,12 @@ fields:
       path: 
   label: Author
 pages:
+- content/articles/check-1-2.md
+- content/articles/first.md
+- content/articles/hi-there-tom.md
 - content/articles/rt2.md
+- content/articles/test2.md
+- content/articles/this-is-a-second-test.md
+- content/articles/wekeith-curle.md
+
+

@@ -2,6 +2,7 @@
 title: "working example"
 date: 2019-01-08T18:16:47-08:00
 draft: false
+type: "articles"
 menu: 
     first: 
         title: "how to use menus in templates"

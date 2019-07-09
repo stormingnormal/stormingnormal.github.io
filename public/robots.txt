@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /articles/
+Disallow: /articles/check-1-2/
+Disallow: /
+Disallow: /articles/hi-there-tom/
+Disallow: /articles/test2/
+Disallow: /articles/this-is-a-second-test/
+Disallow: /articles/first/
+Disallow: /contact/
+Disallow: /articles/wekeith-curle/
