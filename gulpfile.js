@@ -49,7 +49,7 @@ function favicon(){
                 appDescription: 'Eskimo-Nation',
                 developerName: 'David Nash',
                 developerURL: 'https://www.eskimo-nation.co.uk/',
-                background: '#020307',
+                background: '#ffffff',
                 path: '/',
                 lang: "en-GB",
                 url: 'https://www.eskimo-nation.co.uk/',
