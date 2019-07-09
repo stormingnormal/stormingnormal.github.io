@@ -5,19 +5,24 @@ title = "eskimo-nation.co.uk"
 name = "working example"
 parent = "templates"
 title = "how to use menus in templates"
+weight = 2
+[[menu.first]]
+name = "working example"
+parent = "templates"
+title = "how to use menus in templates"
 weight = 1
 [[menu.main]]
-identifier = "contact-us"
-name = "Contact"
-url = "/contact-us/"
-weight = 2
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
 [[menu.main]]
 identifier = "articles"
 name = "Articles"
 url = "/articles/"
 weight = 3
 [[menu.main]]
-identifier = "home"
-name = "Home"
-url = "/"
-weight = 1
+identifier = "contact-us"
+name = "Contact"
+url = "/contact/"
+weight = 2
