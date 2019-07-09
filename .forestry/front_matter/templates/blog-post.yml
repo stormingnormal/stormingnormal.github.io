@@ -22,4 +22,5 @@ fields:
       path: 
   label: Author
 pages:
+- content/contact/contact.md
 - content/articles/check-1-2.md
