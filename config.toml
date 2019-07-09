@@ -1,8 +1,8 @@
 baseURL = "https://www.eskimo-nation.co.uk"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+enableRobotsTXT = true
 languageCode = "en-us"
 title = "eskimo-nation.co.uk"
-enableRobotsTXT = true
-disableKinds = ["taxonomy", "taxonomyTerm"]
 [[menu.main]]
 identifier = "home"
 name = "Home"
