@@ -1,5 +1,5 @@
 ---
-label: Article
+label: articles
 hide_body: false
 fields:
 - type: text
