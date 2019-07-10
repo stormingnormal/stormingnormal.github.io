@@ -39,6 +39,3 @@ fields:
 - type: datetime
   name: date
   label: date
-- type: text
-  name: type
-  label: type
