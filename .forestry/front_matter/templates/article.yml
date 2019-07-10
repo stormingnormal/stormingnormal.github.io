@@ -3,14 +3,42 @@ label: Article
 hide_body: false
 fields:
 - type: text
-  name: author
+  name: title
+  label: title
+- name: meta_keywords
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: meta keywords
+- name: meta_description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: meta description
+- name: author
+  type: select
+  default: ''
+  config:
+    required: true
+    options:
+    - David Nash
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
   label: author
 - type: datetime
   name: date
   label: date
-- type: text
-  name: title
-  label: title
 - type: text
   name: type
   label: type
