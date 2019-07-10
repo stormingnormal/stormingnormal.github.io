@@ -1,7 +1,8 @@
 User-agent: *
 Disallow: /articles/
-Disallow: /articles/check-1-2/
+Disallow: /articles/this-has-meta/
 Disallow: /
+Disallow: /articles/check-1-2/
 Disallow: /articles/hi-there-tom/
 Disallow: /articles/test2/
 Disallow: /articles/this-is-a-second-test/

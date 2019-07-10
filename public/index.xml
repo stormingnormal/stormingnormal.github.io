@@ -6,10 +6,19 @@
     <description>Recent content on eskimo-nation.co.uk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Jul 2019 15:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jul 2019 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://www.eskimo-nation.co.uk/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>THis has meta</title>
+      <link>https://www.eskimo-nation.co.uk/articles/this-has-meta/</link>
+      <pubDate>Wed, 10 Jul 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://www.eskimo-nation.co.uk/articles/this-has-meta/</guid>
+      <description>THis is new content</description>
+    </item>
     
     <item>
       <title>Check 1-2</title>
@@ -17,7 +26,7 @@
       <pubDate>Tue, 09 Jul 2019 15:00:00 +0100</pubDate>
       
       <guid>https://www.eskimo-nation.co.uk/articles/check-1-2/</guid>
-      <description>This is a test</description>
+      <description>This is a test.</description>
     </item>
     
     <item>

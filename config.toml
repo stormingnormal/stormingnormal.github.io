@@ -3,6 +3,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 enableRobotsTXT = true
 languageCode = "en-us"
 title = "eskimo-nation.co.uk"
+
 [[menu.main]]
 identifier = "home"
 name = "Home"
@@ -18,3 +19,6 @@ identifier = "contact-us"
 name = "Contact"
 url = "/contact/"
 weight = 2
+[params]
+    meta_description = "DEFAULT"
+    meta_keywords = "DEFAULT KEYWORDS"

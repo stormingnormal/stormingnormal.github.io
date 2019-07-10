@@ -4,19 +4,24 @@
   
   <url>
     <loc>https://www.eskimo-nation.co.uk/articles/</loc>
-    <lastmod>2019-07-09T15:00:00+01:00</lastmod>
+    <lastmod>2019-07-10T00:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.eskimo-nation.co.uk/articles/this-has-meta/</loc>
+    <lastmod>2019-07-10T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.eskimo-nation.co.uk/</loc>
+    <lastmod>2019-07-10T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.eskimo-nation.co.uk/articles/check-1-2/</loc>
     <lastmod>2019-07-09T15:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.eskimo-nation.co.uk/</loc>
-    <lastmod>2019-07-09T15:00:00+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
