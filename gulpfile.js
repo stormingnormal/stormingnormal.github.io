@@ -9,7 +9,7 @@ const concat                = require('gulp-concat');
 const gp_uglify             = require('gulp-uglify');
 const gp_uglify_css             = require('gulp-uglifycss');
 const favicons = require('gulp-favicons');
-
+const { exec } = require('child_process');
 
 function styles() {
     del(["static/css/**/*"])
@@ -34,8 +34,7 @@ function scripts(){
     return gulp.src([
         './bower_components/jquery/dist/jquery.js',
         './bower_components/foundation-sites/dist/js/foundation.js',
-        './src/js/public.js',
-        
+        './src/js/public.js', 
     ])
     .pipe(gp_uglify())
     .pipe(concat('app.js'))
@@ -68,6 +67,10 @@ function favicon(){
         .pipe(gulp.dest('./static/'));
 }
 
-//favicon
+function buildManifest(){
+    return exec('npx workbox generateSW workbox-config.js');
+}
 
-gulp.task('default',gulp.series(scripts,watchFiles)); 
+//favicon doesn't need to be run each time - add to the series tasks below when favicons need to be generated
+
+gulp.task('default',gulp.series(buildManifest,scripts,watchFiles)); 
